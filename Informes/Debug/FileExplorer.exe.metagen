@@ -1,0 +1,60 @@
+  FileExplorer.DNIe.resources - Embedded, ContainedInManifestFile, 
+  FileExplorer.Explorer.resources - Embedded, ContainedInManifestFile, 
+  FileExplorer.RegisterForm.resources - Embedded, ContainedInManifestFile, 
+  FileExplorer.SearchForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly FileExplorer, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class FileExplorer.RegisterForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getCUI(): PrivateScope, Public, HideBySig
+    getPrimerApellido(): PrivateScope, Public, HideBySig
+    getSegundoApellido(): PrivateScope, Public, HideBySig
+    getNombres(): PrivateScope, Public, HideBySig
+    getSexo(): PrivateScope, Public, HideBySig
+    getEstadoCivil(): PrivateScope, Public, HideBySig
+    getFechaNacimiento(): PrivateScope, Public, HideBySig
+    getCompuertaAgregar(): PrivateScope, Public, HideBySig
+    setCompuertaAgregar(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+Class FileExplorer.DNIe: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setCUI(String): PrivateScope, Public, HideBySig
+    setPrimerApellido(String): PrivateScope, Public, HideBySig
+    setSegundoApellido(String): PrivateScope, Public, HideBySig
+    setNombres(String): PrivateScope, Public, HideBySig
+    setSexo(String): PrivateScope, Public, HideBySig
+    setEstadoCivil(String): PrivateScope, Public, HideBySig
+    setFechaNacimiento(String): PrivateScope, Public, HideBySig
+    getCUI(): PrivateScope, Public, HideBySig
+    getPrimerApellido(): PrivateScope, Public, HideBySig
+    getSegundoApellido(): PrivateScope, Public, HideBySig
+    getNombres(): PrivateScope, Public, HideBySig
+    getSexo(): PrivateScope, Public, HideBySig
+    getEstadoCivil(): PrivateScope, Public, HideBySig
+    getFechaNacimiento(): PrivateScope, Public, HideBySig
+Class FileExplorer.SearchForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setTreeNode(TreeView): PrivateScope, Public, HideBySig
+Class FileExplorer.Explorer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Compare(Object, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
